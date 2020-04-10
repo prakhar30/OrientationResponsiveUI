@@ -10,15 +10,38 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var view3: UIView!
+    
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         NotificationCenter.default.addObserver(self, selector: #selector(self.orientationChanged), name: UIApplication.didChangeStatusBarOrientationNotification, object: nil)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        view.backgroundColor = UIColor.green
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        view1.backgroundColor = greenColors[0]
+        view2.backgroundColor = greenColors[1]
+    }
+    
+    @IBAction func button1Action(_ sender: Any) {
+        view1.backgroundColor = greenColors[0]
+        view2.backgroundColor = greenColors[1]
+    }
+    
+    @IBAction func button2Action(_ sender: Any) {
+        view1.backgroundColor = redColors[0]
+        view2.backgroundColor = redColors[1]
+    }
+    
+    @IBAction func button3Action(_ sender: Any) {
+        view1.backgroundColor = blueColors[0]
+        view2.backgroundColor = blueColors[1]
     }
     
     @objc func orientationChanged(notification: NSNotification) {
