@@ -121,6 +121,17 @@
                         <outlet property="view1" destination="YZT-8a-16t" id="42q-mQ-EgS"/>
                         <outlet property="view2" destination="whL-kF-e5W" id="m0A-mK-qCu"/>
                         <outlet property="view3" destination="eOb-Le-wCt" id="fGp-PY-aNw"/>
+                        <outletCollection property="IBConstraints" destination="LDj-ak-ICR" collectionClass="NSMutableArray" id="fu6-27-QXA"/>
+                        <outletCollection property="IBConstraints" destination="nSA-6V-PQe" collectionClass="NSMutableArray" id="Br7-TS-mny"/>
+                        <outletCollection property="IBConstraints" destination="wkK-m6-eBk" collectionClass="NSMutableArray" id="ye5-X1-QO6"/>
+                        <outletCollection property="IBConstraints" destination="yJp-MS-tvl" collectionClass="NSMutableArray" id="PKg-Yp-ENa"/>
+                        <outletCollection property="IBConstraints" destination="GSi-iR-VL7" collectionClass="NSMutableArray" id="Ccg-RG-JF9"/>
+                        <outletCollection property="IBConstraints" destination="eL7-ES-B4e" collectionClass="NSMutableArray" id="4Xz-b6-P3V"/>
+                        <outletCollection property="IBConstraints" destination="nHd-sr-gYw" collectionClass="NSMutableArray" id="TZE-P2-COv"/>
+                        <outletCollection property="IBConstraints" destination="FZH-L4-0E8" collectionClass="NSMutableArray" id="T8d-Yo-4ag"/>
+                        <outletCollection property="IBConstraints" destination="w7c-Ug-DNy" collectionClass="NSMutableArray" id="RTA-7z-EnM"/>
+                        <outletCollection property="IBConstraints" destination="DUK-ly-rjp" collectionClass="NSMutableArray" id="hD5-gU-3ef"/>
+                        <outletCollection property="IBConstraints" destination="rSI-1j-piv" collectionClass="NSMutableArray" id="415-PO-5rq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
