@@ -14,6 +14,7 @@
 		C00E14F12440B9BB00E60F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00E14EF2440B9BB00E60F1E /* LaunchScreen.storyboard */; };
 		C0D6F06724413B5800BAB971 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D6F06624413B5800BAB971 /* ColorConstants.swift */; };
 		C0D6F0692441400100BAB971 /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D6F0682441400100BAB971 /* ConstraintsHelper.swift */; };
+		C0D6F06B2441465000BAB971 /* SafeAreaValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D6F06A2441465000BAB971 /* SafeAreaValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C00E14F22440B9BB00E60F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D6F06624413B5800BAB971 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		C0D6F0682441400100BAB971 /* ConstraintsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsHelper.swift; sourceTree = "<group>"; };
+		C0D6F06A2441465000BAB971 /* SafeAreaValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C00E14F22440B9BB00E60F1E /* Info.plist */,
 				C0D6F06624413B5800BAB971 /* ColorConstants.swift */,
 				C0D6F0682441400100BAB971 /* ConstraintsHelper.swift */,
+				C0D6F06A2441465000BAB971 /* SafeAreaValues.swift */,
 			);
 			path = OrientationResponsiveUI;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				C0D6F06724413B5800BAB971 /* ColorConstants.swift in Sources */,
 				C00E14E92440B9BA00E60F1E /* ViewController.swift in Sources */,
 				C0D6F0692441400100BAB971 /* ConstraintsHelper.swift in Sources */,
+				C0D6F06B2441465000BAB971 /* SafeAreaValues.swift in Sources */,
 				C00E14E52440B9BA00E60F1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
